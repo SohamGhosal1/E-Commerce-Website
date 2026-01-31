@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RedStore | Gym Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<script src="script.js"></script>
+
+<body>
+
+<!-- Navbar -->
+<header class="navbar">
+    <div class="logo">Red<span>Store</span></div>
+    <nav>
+        <ul>
+            <li><a href="cart.html">Cart 🛒</a></li>
+
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="btn">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Upgrade Your Fitness Gear</h1>
+        <p>Premium gym equipment & supplements for your best performance</p>
+        <a href="#" class="btn-primary">Shop Now</a>
+    </div>
+</section>
+
+<!-- Featured Products -->
+<section class="products">
+    <h2>Featured Products</h2>
+
+    <div class="product-container">
+        <div class="product-card">
+            <img src="images/dumbbell.jpg" alt="Dumbbells">
+            <h3>Dumbbells</h3>
+            <p>₹1,999</p>
+            <button onclick="addToCart('Dumbbells',1999,'images/dumbbell.jpg')">
+    Add to Cart
+</button>
+
+        </div>
+
+        <div class="product-card">
+            <img src="images/protein.jpg" alt="Protein Powder">
+            <h3>Protein Powder</h3>
+            <p>₹2,499</p>
+            <button onclick="addToCart('Protein Powder',2499,'images/Protein Powder.jpg')">
+    Add to Cart
+</button>
+
+        </div>
+
+        <div class="product-card">
+            <img src="images/gloves.jpg" alt="Gym Gloves">
+            <h3>Gym Gloves</h3>
+            <p>₹699</p>
+            <button onclick="addToCart('Gym Gloves',699,'images/Gym Gloves.jpg')">
+    Add to Cart
+</button>
+
+        </div>
+
+        <div class="product-card">
+            <img src="images/bottle.jpg" alt="Shaker Bottle">
+            <h3>Shaker Bottle</h3>
+            <p>₹399</p>
+            <button onclick="addToCart('Shaker Bottle',399,'images/Shaker Bottle.jpg')">
+    Add to Cart
+</button>
+
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 RedStore | Designed for Fitness Lovers 💪</p>
+</footer>
+
+</body>
+</html>
